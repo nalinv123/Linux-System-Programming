@@ -14,7 +14,7 @@ int main()
 	int fd;
 	char filename[50] = {'\0'};
 	
-	dir = opendir("/Users/nalin/Linux_System_Programming");
+	dir = opendir("/home/nalin/Desktop");
 	if(dir == NULL)
 	{
 		printf("Unable to open directory\n");
